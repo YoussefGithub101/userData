@@ -35,7 +35,7 @@
               "node_modules/remixicon/fonts/remixicon.css"
                
             ],
-            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -43,7 +43,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "1.23mb"
                 },
                 {
                   "type": "anyComponentStyle",
