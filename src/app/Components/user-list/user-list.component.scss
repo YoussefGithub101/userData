@@ -1,0 +1,51 @@
+ 
+.demo-table {
+    width: 100%;
+  }
+  
+  .mat-mdc-row .mat-mdc-cell {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    cursor: pointer;
+  }
+  
+  .mat-mdc-row:hover .mat-mdc-cell {
+    border-color: currentColor;
+  }
+  
+  .demo-row-is-clicked {
+    font-weight: bold;
+  }
+
+
+  .loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #127B8E;
+    border-radius: 50%;
+    display: flex;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    margin: auto;
+    justify-content: center;
+      align-items: center;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+    .mat-mdc-form-field{
+      width: 250px;
+    }
+    .invisible {
+      visibility: hidden;
+    }
+    .found{
+      color: #FFF;
+    }
